@@ -18,7 +18,7 @@ const data = {
             category: 'Pants',
             image: '/images/p2.jpg',
             price: 50,
-            countInStock: 6,
+            countInStock: 0,
             brand: 'V. Cleef',
             rating: 5,
             numReviews: 16,
