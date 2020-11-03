@@ -17,7 +17,6 @@ const data = {
       ],
     products: [
         {
-            _id: '1',
             name: 'Blue Large sea',
             category: 'Shirts',
             image: '/images/p1.jpg',
@@ -29,7 +28,6 @@ const data = {
             description: 'Très bonne qualité !',
         },
         {
-            _id: '2',
             name: 'Tchaya',
             category: 'Pants',
             image: '/images/p2.jpg',
@@ -41,7 +39,6 @@ const data = {
             description: 'Le must !',
         },
         {
-            _id: '3',
             name: 'White cotton',
             category: 'Shirts',
             image: '/images/p3.jpg',
@@ -53,7 +50,6 @@ const data = {
             description: 'Très bonne qualité. A essayer !',
         },
         {
-            _id: '4',
             name: 'White Classic',
             category: 'Pants',
             image: '/images/p4.jpg',
@@ -65,7 +61,6 @@ const data = {
             description: 'Très bonne qualité !',
         },
         {
-            _id: '5',
             name: 'Deep Blue',
             category: 'Shirts',
             image: '/images/p5.jpg',
@@ -77,7 +72,6 @@ const data = {
             description: 'A porter avec un blue jean !',
         },
         {
-            _id: '6',
             name: 'Shorty',
             category: 'Shirts',
             image: '/images/p6.jpg',
@@ -89,7 +83,6 @@ const data = {
             description: 'Port agréable. Restez classe !',
         },
         {
-            _id: '7',
             name: 'Scottish Lamberjack',
             category: 'Shirts',
             image: '/images/p7.jpg',
@@ -101,7 +94,6 @@ const data = {
             description: 'Qualité imbattable !',
         },
         {
-            _id: '8',
             name: 'White angel',
             category: 'Shirts',
             image: '/images/p8.jpg',
