@@ -7,6 +7,7 @@ import userRouter from './routers/userRouter.js';
 import orderRouter from './routers/orderRouter.js';
 import uploadRouter from './routers/uploadRouter.js';
 import App from './App.js';
+import Server from './server.js';
 
 dotenv.config();
 
