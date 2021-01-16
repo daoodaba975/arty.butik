@@ -7,7 +7,6 @@ import userRouter from './routers/userRouter.js';
 import orderRouter from './routers/orderRouter.js';
 import uploadRouter from './routers/uploadRouter.js';
 import App from './App.js';
-import Server from './server.js';
 
 dotenv.config();
 
@@ -34,6 +33,9 @@ app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
 app.use(express.static(path.join(__dirname, 'artybutik/frontend/build')));
 app.get('*', (req, res) => 
   res.sendFile(path.join(__dirname, 'artybutik/frontend/build/index.html'))
+);
+app.get('*', (req, res) => 
+  res.sendFile(path.join(__dirname, 'artybutik/backend/server.js'))
 );
 // app.get('/', (req, res) => {
   // res.send('Server is ready');
